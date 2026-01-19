@@ -86,10 +86,13 @@ main {
 
 .profile-sect {
     display: flex;
+    padding-right: 100px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
 }
 
 .profile-sect svg {
-
     height: 25px;
     width: auto;
     margin-right: 20px;
@@ -100,4 +103,17 @@ main {
     display:flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.sect-2 {
+    height: 100%;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.greetings {
+    display:flex;
+    flex-direction: column;
 }
