@@ -128,12 +128,12 @@ main {
     margin: 0 10px;
 }
 
-.grid-1 > div {
-    height: 200px;
-    width: 350px;
+.grid-1>div {
     background-color: #ffffff;
     border-radius: 8px;
     padding: 35px 20px;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -144,6 +144,7 @@ main {
 
 .grid-1 p {
     color: gray;
+    font-size: 15px;
 }
 
 .sect-3 {
@@ -157,7 +158,7 @@ main {
 
 .grid-1 {
     display: grid;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-rows: 215px 215px 215px;
     grid-template-columns: 350px 350px;
     row-gap: 25px;
     column-gap: 20px;
@@ -165,4 +166,19 @@ main {
 
 .grid-1 svg {
     height: 20px;
+
+}
+
+.svgs-grid {
+    width: 100%;
+    height: 100%;
+}
+
+.svgs-grid div {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 25px;
 }
