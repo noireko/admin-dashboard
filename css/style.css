@@ -149,6 +149,7 @@ main {
 
 .sect-3 {
     padding: 35px 20px;
+    padding-right: 35px;
     background-color: #e1e8f0;
     display: flex;
     flex-wrap: nowrap;
@@ -161,7 +162,7 @@ main {
 
 .grid-1 {
     display: grid;
-    grid-template-rows: 215px 215px 215px;
+    grid-template-rows: 200px 200px 200px;
     grid-template-columns: 350px 350px;
     row-gap: 25px;
     column-gap: 20px;
@@ -211,14 +212,43 @@ main {
 
 .announs-cells p {
     color: gray;
+    font-size: 12x;
 }
 
 .side-bar h3 {
     margin-bottom: 12px;
 }
 
-.announs-cells div,
-.trends-cells>div {
+.announs-cells div{
     padding: 25px 0;
     margin: 0 25px;
+}
+
+.trends-cells {
+    padding: 10px;
+}
+
+.trends-cells>div>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.trends-cells > div {
+    display: flex;
+    align-items: center;
+}
+
+.trends-cells img {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 8px;
+}
+
+.trends-cells span {
+    font-size: 15px;
+}
+
+.trends-cells > div > div > span:last-of-type {
+    color: gray;
 }
