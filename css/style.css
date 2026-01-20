@@ -160,5 +160,6 @@ main {
     display: grid;
     grid-template-rows: 200px 200px 200px;
     grid-template-columns: 350px 350px;
-    gap: 30px;
+    row-gap: 25px;
+    column-gap: 20px;
 }
