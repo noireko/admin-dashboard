@@ -162,7 +162,7 @@ main {
 
 .grid-1 {
     display: grid;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-rows: 205px 205px 205px;
     grid-template-columns: 350px 350px;
     row-gap: 25px;
     column-gap: 20px;
@@ -212,7 +212,7 @@ main {
 
 .announs-cells p {
     color: gray;
-    font-size: 12x;
+    font-size: 12px;
 }
 
 .side-bar h3 {
@@ -220,8 +220,12 @@ main {
 }
 
 .announs-cells div{
-    padding: 25px 0;
-    margin: 0 25px;
+    padding: 15px 0;
+    margin: 0 30px;
+}
+
+.announs-cells {
+    padding: 10px 0;
 }
 
 .trends-cells {
@@ -239,7 +243,7 @@ main {
 }
 
 .trends-cells img {
-    width: 75px;
+    width: 65px;
     height: auto;
     border-radius: 10px;
     margin-right: 8px;
