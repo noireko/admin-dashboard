@@ -80,7 +80,7 @@ main {
     height: 35px;
     border-radius: 20px;
     padding-left: 15px;
-    border:none;
+    border: none;
 }
 
 .profile-sect {
@@ -98,7 +98,7 @@ main {
 
 .sect-1 {
     width: 100%;
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 25px 45px;
@@ -107,7 +107,7 @@ main {
 .sect-2 {
     height: 100%;
     width: 100%;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 25px 45px;
@@ -115,7 +115,7 @@ main {
 }
 
 .greetings {
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
 
@@ -154,4 +154,11 @@ main {
 
 .proyec-titu {
     margin-bottom: 12px;
+}
+
+.grid-1 {
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 350px 350px;
+    gap: 30px;
 }
