@@ -128,3 +128,14 @@ main {
     font-weight: 600;
     margin: 0 10px;
 }
+
+.grid-1 div {
+    height: 200px;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.grid-1 h3 {
+    font-size: 1.05rem;
+}
